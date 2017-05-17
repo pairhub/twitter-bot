@@ -1,14 +1,9 @@
 const Twit = require('twit')
 const config = require('./config')
 
-const bot = new Twit(config)
+const bot = new Twit(config.twitterKeys)
 
-bot.post('statuses/update', {
-  status: 'hello world!'
-}, (err, data, response) => {
-  if (err) {
-    console.log(err)
-  } else {
-    console.log(`${data.text} tweeted!`)
-  }
-})
+const retweet = require('./api/retweet')
+
+retweet()
+setInterval(retweet, config.twitterConfig.retweet)
