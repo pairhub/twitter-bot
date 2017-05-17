@@ -19,6 +19,7 @@
   "homepage": "https://github.com/pairhub/twitter-bot#readme",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "twit": "^2.2.5"
+    "twit": "^2.2.5",
+    "unique-random-array": "^1.0.0"
   }
 }
