@@ -1,0 +1,24 @@
+{
+  "name": "twitter-bot",
+  "version": "0.0.0",
+  "description": "PairHub Tweet bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pairhub/twitter-bot.git"
+  },
+  "keywords": [],
+  "author": "Scott Spence <spences10apps@gmail.com> (https://spences10.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pairhub/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/pairhub/twitter-bot#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "twit": "^2.2.5"
+  }
+}
